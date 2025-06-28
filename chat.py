@@ -58,4 +58,3 @@ if __name__ == "__main__":
 
         resp = get_response(sentence)
         print(resp)
-

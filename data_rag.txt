@@ -1,0 +1,327 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! Welcome to Vidyalankar Institute of Technology.",
+        "Hi there! How can I assist you with VIT information?",
+        "Hey! What would you like to know about VIT?"
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Tell me about VIT's history",
+        "How old is Vidyalankar Institute of Technology?",
+        "When was VIT established?"
+      ],
+      "responses": [
+        "Vidyalankar Institute of Technology (VIT) was established in 1999 under the aegis of the Vidyalankar Dnyanapeeth Trust.",
+        "VIT has been providing quality engineering education for over two decades."
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "What is VIT's ranking?",
+        "Is VIT a top college?",
+        "How is VIT ranked among Mumbai colleges?"
+      ],
+      "responses": [
+        "VIT is often ranked among the notable engineering institutes in Mumbai. Exact rankings vary by publication.",
+        "It consistently performs well in placement and academic metrics, contributing to its strong reputation."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission?",
+        "What is the admission process?",
+        "Is there an entrance exam?",
+        "How do I apply to VIT?",
+        "Admission criteria for B.Tech at VIT"
+      ],
+      "responses": [
+        "Admissions are primarily based on MHT-CET or JEE Main scores for undergraduate (B.Tech) programs.You need to apply through the DTE Maharashtra CAP rounds. Check the official DTE website for updates.For direct second-year admissions, diploma holders can apply through the appropriate lateral entry process."
+        
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "How much is the tuition fee?",
+        "Tell me about the college fees",
+        "Fee details for engineering"
+      ],
+      "responses": [
+        "The annual tuition fee generally ranges around ₹1.5 - ₹2 lakh. Please check the official website for current details. Scholarships and financial aid (including government schemes) are available for eligible students."
+        
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Are there any scholarships?",
+        "Does VIT offer financial aid?",
+        "Can I get a fee waiver?",
+        "Scholarships at VIT"
+      ],
+      "responses": [
+        "VIT offers scholarships based on merit, category (SC/ST/OBC), and financial need.",
+        "Government schemes like EBC (Economically Backward Class) and TFWS (Tuition Fee Waiver Scheme) are also available for eligible students."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available?",
+        "Tell me about the programs",
+        "Which engineering branches does VIT offer?",
+        "Undergraduate programs at VIT"
+      ],
+      "responses": [
+        "VIT offers B.Tech in Computer Engineering, Information Technology, Electronics & Telecommunication, Biomedical Engineering, AI & DS, and more. Postgraduate programs (M.Tech) and research (PhD) options are also available in various specializations."
+        
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "What exams does VIT conduct?",
+        "Tell me about internal exams",
+        "How is the grading system?",
+        "Semester exams at VIT"
+      ],
+      "responses": [
+        "VIT follows a semester system with continuous assessments, mid-semester tests, and end-semester exams.",
+        "The grading system typically includes internal marks (assignments, practicals) plus the final exam score."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "Is attendance mandatory?",
+        "What is the attendance requirement at VIT?",
+        "Minimum attendance for exams"
+      ],
+      "responses": [
+        "VIT generally requires at least 75% attendance in each subject. Policies can vary by department.",
+        "Make sure to attend classes regularly to avoid any shortage of attendance."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities does VIT have?",
+        "Tell me about the infrastructure",
+        "Are there labs in VIT?",
+        "College facilities"
+      ],
+      "responses": [
+        "VIT has modern classrooms, advanced labs, libraries, seminar halls, a canteen, and a sports complex.",
+        "The campus is Wi-Fi enabled, providing students with internet access for academic use."
+      ]
+    },
+    {
+      "tag": "labs",
+      "patterns": [
+        "What labs does VIT have?",
+        "Are there practical labs?",
+        "Tell me about lab facilities",
+        "Lab infrastructure at VIT"
+      ],
+      "responses": [
+        "VIT has specialized labs for AI, machine learning, networking, embedded systems, and more.",
+        "Each department maintains modern lab equipment for practical, hands-on learning."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Does VIT have a library?",
+        "What are the library timings?",
+        "Can I borrow books from the library?",
+        "Library facilities"
+      ],
+      "responses": [
+        "Yes, VIT has a well-stocked library with books, journals, e-resources, and a digital library section.",
+        "Timings are usually 9 AM to 6 PM on weekdays, but may extend during exam periods."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Does VIT have a hostel?",
+        "Are there hostel facilities?",
+        "Tell me about hostel fees",
+        "Hostel at VIT"
+      ],
+      "responses": [
+        "Yes, VIT provides hostel facilities for both boys and girls, with well-furnished rooms and mess services.",
+        "Hostel fees vary based on room type (single, double, triple). Contact administration for details."
+      ]
+    },
+    {
+      "tag": "cafeteria",
+      "patterns": [
+        "Is there a canteen?",
+        "What food options are available?",
+        "Does VIT have a cafeteria?",
+        "Food at VIT"
+      ],
+      "responses": [
+        "Yes, VIT has a canteen/cafeteria offering a variety of cuisines at affordable prices.",
+        "It serves breakfast, lunch, and snacks. There are also vending machines for quick bites."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What events happen at VIT?",
+        "Tell me about college fests",
+        "Are there any technical events?",
+        "Cultural events at VIT"
+      ],
+      "responses": [
+        "VIT hosts a variety of events like technical fests (SPARC, TechTatva), cultural fests (VITRANZ), and sports tournaments.",
+        "Students also participate in hackathons, workshops, and national-level competitions."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "What student clubs are there?",
+        "Are there coding clubs?",
+        "Tell me about extracurricular activities",
+        "Clubs and societies at VIT"
+      ],
+      "responses": [
+        "VIT has numerous clubs including coding, robotics, music, drama, and literary clubs.",
+        "Popular ones include the AI Club, IEEE Student Chapter, IETE, GDSC, and NSS for community service."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "How is student life at VIT?",
+        "What do students do for fun?",
+        "Campus life at Vidyalankar"
+      ],
+      "responses": [
+        "Student life at VIT is vibrant, with active clubs, cultural fests, tech competitions, and sports events throughout the year.",
+        "Many students engage in projects, internships, and community service programs to build their portfolios."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What are the placement stats?",
+        "How are the placements at VIT?",
+        "Which companies visit VIT?",
+        "Placement record at Vidyalankar"
+      ],
+      "responses": [
+        "VIT has a dedicated placement cell that brings in recruiters like TCS, Infosys, Accenture, Capgemini, and more.",
+        "Average packages range around ₹4-6 LPA, with top offers exceeding ₹20 LPA for certain branches."
+      ]
+    },
+    {
+      "tag": "alumni",
+      "patterns": [
+        "Are there notable alumni?",
+        "What are VIT alumni doing now?",
+        "Does VIT have an alumni network?",
+        "Famous alumni of Vidyalankar"
+      ],
+      "responses": [
+        "VIT alumni work at leading tech firms like Google, Microsoft, Amazon, and TCS.",
+        "The alumni association helps connect past and current students, offering mentorship and networking opportunities."
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "How are the professors?",
+        "Tell me about the faculty",
+        "Are the teachers good at VIT?",
+        "Faculty qualifications"
+      ],
+      "responses": [
+        "VIT’s faculty comprises experienced professors with strong academic and industry backgrounds.",
+        "Many faculty members hold advanced degrees and focus on both theoretical knowledge and practical exposure."
+      ]
+    },
+    {
+      "tag": "accreditation",
+      "patterns": [
+        "Is VIT accredited?",
+        "What affiliations does VIT have?",
+        "NAAC or NBA accreditation?"
+      ],
+      "responses": [
+        "VIT is affiliated with the University of Mumbai and approved by AICTE.",
+        "Some of the programs are accredited by the National Board of Accreditation (NBA), and the institute has NAAC accreditation as well."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is VIT located?",
+        "How do I reach Vidyalankar Institute of Technology?",
+        "Location of VIT Mumbai"
+      ],
+      "responses": [
+        "VIT is located in Wadala (East), Mumbai, near the Wadala Depot.",
+        "You can reach by local train (Wadala station) or by bus to Wadala Depot, then walk or take a short rickshaw ride."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact VIT?",
+        "What is the phone number?",
+        "Email ID of VIT?"
+      ],
+      "responses": [
+        "You can call +91-22-24161126 or visit the official website at https://vit.edu.in/",
+        "For admissions and inquiries, you can email them at admissions@vit.edu.in or visit the campus directly."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "What is VIT's official website?",
+        "Give me the link to Vidyalankar Institute of Technology website",
+        "College website"
+      ],
+      "responses": [
+        "The official website of Vidyalankar Institute of Technology is https://vit.edu.in/",
+        "You can find admissions, fees, and course details on https://vit.edu.in/."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I am done"
+      ],
+      "responses": [
+        "See you later! Have a great day!",
+        "Goodbye! Feel free to ask if you need more info.",
+        "Thanks for stopping by. Come back anytime for more details about VIT!"
+      ]
+    }
+  ]
+}
